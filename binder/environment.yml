@@ -1,3 +1,4 @@
+name: streaming-zarr
 channels:
   - conda-forge
 dependencies:
@@ -9,3 +10,7 @@ dependencies:
   - redis-py
   - xarray
   - zarr
+  - pip
+  - pip:
+    - jupyter_bokeh
+    - jupyterlab_widgets
